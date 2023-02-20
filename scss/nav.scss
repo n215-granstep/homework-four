@@ -51,6 +51,29 @@
                     padding-left: 8px;
                 }
             }
+            
+        }
+    }
+}
+
+@media (max-width: 480px){
+    .nav-holder{
+        nav{
+            .links{
+                a{
+                    font-size: 10px;
+                }
+                .leftBar{
+                    height: 15px;
+                    margin-left: 4px;
+                    padding-left: 4px;
+                }
+            }
+            .logo{
+                img{
+                    width: 70px;
+                }
+            }
         }
     }
 }

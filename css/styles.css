@@ -70,6 +70,7 @@
 
 html, body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -145,6 +146,19 @@ h1, h2, h3, h4, h5, h6, p {
   .nav-holder nav .links .leftBar {
     margin-left: 8px;
     padding-left: 8px;
+  }
+}
+@media (max-width: 480px) {
+  .nav-holder nav .links a {
+    font-size: 10px;
+  }
+  .nav-holder nav .links .leftBar {
+    height: 15px;
+    margin-left: 4px;
+    padding-left: 4px;
+  }
+  .nav-holder nav .logo img {
+    width: 70px;
   }
 }
 .home .hero {
@@ -369,6 +383,20 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 21px 45%;
   }
 }
+@media (max-width: 480px) {
+  .home .form-area .form .triple-line {
+    flex-direction: column;
+  }
+  .home .form-area .form .triple-line .dd-pair {
+    width: 100%;
+  }
+  .home .form-area .form .triple-line .dd-pair select {
+    width: 70%;
+  }
+  .home .form-area .form .formSubmission a {
+    padding: 21px 43%;
+  }
+}
 footer {
   max-width: 1280px;
   min-height: 100px;
@@ -405,6 +433,20 @@ footer .foot .socials i {
   footer .foot {
     width: 100%;
     padding: 0px 20px;
+  }
+}
+@media (max-width: 480px) {
+  footer .foot .logo img {
+    width: 70px;
+  }
+  footer .foot .copy {
+    font-size: 8px;
+  }
+  footer .foot .socials {
+    font-size: 20px;
+  }
+  footer .foot .socials i {
+    margin-left: 8px;
   }
 }
 

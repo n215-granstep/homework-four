@@ -39,3 +39,24 @@ footer{
         }
     }
 }
+
+@media (max-width: 480px){
+    footer{
+        .foot{
+            .logo{
+                img{
+                    width: 70px;
+                }
+            }
+            .copy{
+                font-size: 8px;
+            }
+            .socials{
+                font-size: 20px;
+                i{
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+}

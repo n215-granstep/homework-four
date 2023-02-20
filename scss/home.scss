@@ -232,34 +232,6 @@
     }
 }
 
-// @media (max-width: 840px){
-//     .home{
-//     .form-area{
-//         .form{
-
-//             .single-input{
-//                 flex-direction: column;
-//                 .large{
-//                     width: 100%;
-//                 }
-//                 i{
-//                     top: 38px
-//                 }
-//             }
-//             .triple-line{
-//                 .dd-pair{
-//                     margin-left: 10px;
-//                 }
-//             }
-//             .formSubmission{
-//                 a{
-//                     padding: 21px 46%;
-//                 }
-//             }
-//         }
-//     }
-//     }
-// }
 @media (max-width: 640px){
     .home{
         .form-area{
@@ -285,6 +257,29 @@
                 .formSubmission{
                     a{
                         padding: 21px 45%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px){
+    .home{
+        .form-area{
+            .form{
+                .triple-line{
+                    flex-direction: column;
+                    .dd-pair{
+                        width: 100%;
+                        select{
+                            width: 70%;
+                        }
+                    }
+                }
+                .formSubmission{
+                    a{
+                        padding: 21px 43%;
                     }
                 }
             }
