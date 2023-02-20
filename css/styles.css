@@ -293,6 +293,8 @@ h1, h2, h3, h4, h5, h6, p {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+  color: #000;
+  background-color: #fff;
 }
 .home .form-area .form .triple-line .dd-pair i {
   font-size: 25px;
@@ -389,12 +391,13 @@ h1, h2, h3, h4, h5, h6, p {
   }
   .home .form-area .form .triple-line .dd-pair {
     width: 100%;
+    margin-bottom: 12px;
   }
   .home .form-area .form .triple-line .dd-pair select {
     width: 70%;
   }
   .home .form-area .form .formSubmission a {
-    padding: 21px 43%;
+    padding: 21px 42.5%;
   }
 }
 footer {
@@ -435,12 +438,19 @@ footer .foot .socials i {
     padding: 0px 20px;
   }
 }
+@media (max-width: 700px) {
+  footer .foot .copy {
+    margin-left: 10px;
+  }
+}
 @media (max-width: 480px) {
   footer .foot .logo img {
     width: 70px;
   }
   footer .foot .copy {
+    margin-left: 8px;
     font-size: 8px;
+    text-align: center;
   }
   footer .foot .socials {
     font-size: 20px;

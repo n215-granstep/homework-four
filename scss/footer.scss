@@ -40,6 +40,16 @@ footer{
     }
 }
 
+@media (max-width: 700px){
+    footer{
+        .foot{
+            .copy{
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
 @media (max-width: 480px){
     footer{
         .foot{
@@ -49,7 +59,9 @@ footer{
                 }
             }
             .copy{
+                margin-left: 8px;
                 font-size: 8px;
+                text-align: center;
             }
             .socials{
                 font-size: 20px;

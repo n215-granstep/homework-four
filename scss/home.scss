@@ -140,6 +140,8 @@
                         appearance: none;
                         -webkit-appearance: none;
                         -moz-appearance: none;
+                        color: $site-black;
+                        background-color: $site-white;
                     }
 
                     i{
@@ -272,6 +274,7 @@
                     flex-direction: column;
                     .dd-pair{
                         width: 100%;
+                        margin-bottom: 12px;
                         select{
                             width: 70%;
                         }
@@ -279,7 +282,7 @@
                 }
                 .formSubmission{
                     a{
-                        padding: 21px 43%;
+                        padding: 21px 42.5%;
                     }
                 }
             }
